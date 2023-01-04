@@ -1,0 +1,73 @@
+.top{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #E4F9F5;
+    padding-top: 100px;
+
+    position: relative;
+
+    font-family: serif;
+
+}
+
+
+
+body {
+    /* margin: 0px; this means all the four sides margin will be set to 0px*/ 
+    text-align: center;
+    font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+h1 {
+    color: #66BFBF;
+    margin-top: 0px;
+    font-family:  'Sacramento';
+}
+
+h2 {
+    font-family: 'Monserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Monserrat', sans-serif;
+}
+
+.programmer {
+    color: #66BFBF;
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+.myskill-photo {
+    height: 300px;
+    width: 300px;
+
+}
+
+.cricket-photo {
+    height: 300px;
+    width: 300px;
+}
+.socials {
+    margin-top: 8px;
+}
