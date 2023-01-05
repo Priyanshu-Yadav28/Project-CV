@@ -21,18 +21,19 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 0;
+    color: #40514E;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 100px;
+    top: 40px;
 }
 
 h1 {
@@ -50,6 +51,7 @@ h2 {
     font-family: 'Monserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
     
 }
 
@@ -67,6 +69,12 @@ h3 {
 .profile-pic {
     width: 15%;
     border-radius: 200px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    line-height: 2;
 }
 
 .myskill-photo {
@@ -92,6 +100,7 @@ hr {
     border-bottom-width: 0px;
     border-top-width: 10px;
     border-color: #EAF6F6;
+    
 }
 
 /* .skill-row1 {
@@ -120,19 +129,32 @@ hr {
     color: #EAF6F6;
     position: relative;
     top: 70px;
+    font-size: 0.75rem;
+    padding: 20px, 0;
 }
 
 .linkedin {
     position: relative;
     top: 25px;
     margin-right: 10px;
+    color: #11999E;
+    font-family: 'Monserrat', sans-serif;
+    text-decoration: none;
+
+}
+.linkedin :hover {
+    color: #EAF6F6;
 }
 
 .twitter {
     position: relative;
     top: 25px;
-
-
+    color: #11999E;
+    font-family: 'Monserrat', sans-serif;
+    text-decoration: none;
+}
+.twitter :hover {
+    color: #EAF6F6;
 }
 
 
@@ -140,7 +162,7 @@ hr {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
-    font-family: Arial;
+    font-family: 'Monserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     background: #66BFBF;
@@ -161,4 +183,10 @@ hr {
 .contactme {
     margin-top: 50px;
 }
+
+.getin-touch {
+    line-height: 2;
+}
+
+
 
